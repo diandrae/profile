@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Smokum&display=swap');
+
+body {
+  background-color: #FAF9F6;
+  font-family: 'Helvetica';
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+div.card#details {
+  background-color: white;
+  padding: 40px;
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+div.card#intro {
+  background-color: none;
+  padding: 40px;
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+div.card#footer {
+  background-color: none;
+  padding: 40px;
+  text-align: center;
+  background-color: orangered;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #181818;
+  font-family: 'Smokum', cursive;
+  font-size: 150px;
+  text-align: center;
+  padding: none;
+  margin: 0;
+}
+
+h2 {
+  color: #181818;
+  font-family: 'helvetica';
+  font-size: 30px;
+  text-align: center;
+  padding: none;
+  margin: none;
+}
+
+h3 {
+  color: #181818;
+  font-family: 'helvetica';
+  font-size: 20px;
+  text-align: center;
+  padding: none;
+  margin: none;
+}
+
+p {
+  color: #181818;
+  font-family: 'helvetica';
+  font-size: 20px;
+  text-align: center;
+  padding: none;
+  margin: 20px;
+}
+
+.btn-portfolio {
+  display: block;
+  color: #181818;
+  font-family: 'helvetica';
+  font-size: 20px;
+  text-align: center;
+  padding:20px;
+  text-decoration: none;
+  background-color: orangered;
+  border-radius: 10px;
+}
+
+.btn-portfolio:hover {
+  display: block;
+  color: white;
+  font-family: 'helvetica';
+  font-size: 20px;
+  text-align: center;
+  padding:20px;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 10px;
+}
+
+#profile-image {
+  height: 300px;
+  weight: 300px;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.list-inline > li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  font-size: 30px;
+  padding-left: 0px;
+  color: rgb(230, 230, 230);
+}
+
+a{
+  color: rgb(230, 230, 230);
+}
